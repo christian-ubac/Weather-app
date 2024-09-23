@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Philippines Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="app-main">
+      <div class="header">
+        <h4>Get Weather in the Philippines</h4>
+      </div>
+      <div class="searchInputBox">
+        <select id="city-dropdown">
+          <option value="">Select a City or Municipality</option>
+          <!-- Luzon Cities and Municipalities -->
+          <option value="Manila,PH">Manila</option>
+          <option value="Quezon City,PH">Quezon City</option>
+          <option value="Baguio,PH">Baguio</option>
+          <option value="Tagaytay,PH">Tagaytay</option>
+          <option value="Batangas City,PH">Batangas City</option>
+          <option value="Calamba,PH">Calamba</option>
+
+          <!-- Visayas Cities and Municipalities -->
+          <option value="Cebu City,PH">Cebu City</option>
+          <option value="Iloilo City,PH">Iloilo City</option>
+          <option value="Bacolod,PH">Bacolod</option>
+          <option value="Dumaguete,PH">Dumaguete</option>
+
+          <!-- Mindanao Cities and Municipalities -->
+          <option value="Davao City,PH">Davao City</option>
+          <option value="Cagayan de Oro,PH">Cagayan de Oro</option>
+          <option value="Zamboanga City,PH">Zamboanga City</option>
+          <option value="Butuan,PH">Butuan</option>
+          <option value="General Santos,PH">General Santos</option>
+        </select>
+      </div>
+      <div class="weather-body" id="weather-body" style="display: none"></div>
+    </div>
+  </body>
+</html>
